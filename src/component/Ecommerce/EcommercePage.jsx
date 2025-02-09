@@ -74,7 +74,7 @@ const EcommercePage = () => {
 
         <div className="content">
           <div >
-            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-09-a-768x936.jpg" />
+            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-09-a-768x936.jpg" alt=""/>
             <div className="description">
               <div> <span className="small-desc">Men</span></div>
               <div><h3>T-Shirt Name 10</h3></div>
@@ -98,7 +98,7 @@ const EcommercePage = () => {
           </div>
 
           <div>
-            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-06-a-400x488.jpg" />
+            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-06-a-400x488.jpg" alt=""/>
             <div className="description">
               <div ><span className="small-desc">Women</span></div>
               <div><h3>T-Shirt Name 9</h3></div>
@@ -120,7 +120,7 @@ const EcommercePage = () => {
           </div>
 
           <div>
-            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-10-a-400x488.jpg" />
+            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-10-a-400x488.jpg" alt=""/>
             <div className="description">
               <div ><span className="small-desc">Men</span></div>
               <div><h3>T-Shirt Name 8</h3></div>
@@ -142,7 +142,7 @@ const EcommercePage = () => {
           </div>
 
           <div>
-            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-08-a-400x488.jpg" />
+            <img width={300} height={360} src="https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/product-08-a-400x488.jpg" alt=""/>
             <div className="description">
               <div ><span className="small-desc">Women</span></div>
               <div><h3>T-Shirt Name 7</h3></div>
