@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Adjusted padding - less vertical, more horizontal */
+  position: relative; /* For positioning the logo absolutely */
+  width: 93%; /* Or a specific max-width */
+  margin: 20px auto; /* Center the navbar horizontally */
+}
+
+.navbar-left-items {
+  /* flex: 1; */
+  display: flex;
+
+}
+
+.navbar-items-name {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.navbar-items-name div {
+    padding: 0px 15px;
+    font-size: 14px;
+}
+
+.navbar-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar-rightside-items {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-left: auto;
+}
+
+.navbar-rightside-items div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon img {
+    max-width: 100px;
+}
+
+.navbar-rightside-items p, .navbar-rightside-items svg {
+    font-size: 14px; /* Consistent font size for icons and text */
+  }
+
+
+  .body-img {
+    /* background-image: url('./assets/backgroundimg.jpg');  */
+    background-color: rgb(228, 220, 212);
+    margin: 0 auto;
+    width: 93%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+  .body-img img {
+        height: 90vh;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+}
+
+.left-side-head  {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.left-side-head .text-small {
+   font-size: 14px;
+}
+
+.left-side-head .text-heading h1 {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+
+ .shop-btn {
+    padding: 9px 22px;
+    background-color:  #000;
+    color: #fff
+ }
+
+ .shop-btn:hover{
+    color: #afa5a5;
+    transition: color 0.3s ease-in-out;
+ }
+
+ .content-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin: 46px auto; */
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+ .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  gap: 15px;
+ }
+
+ .color-options {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.color-box {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color-box.selected {
+  border: 2px solid #aaa; /* Highlight selected color */
+}
+
+
+.size-options {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;  
+}
+
+.size-box {
+  color: grey;
+  padding: 3px 12px;
+  border: 1px solid #e2dada;
+  background: transparent;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.size-box:hover {
+  background: #000;
+  color: #fff;
+}
+
+.size-box.selected {
+  border: 1px solid #000000;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.small-desc {
+  color: #000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.description h3 {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.description h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description h6 {
+  font-size: 13px;
+}
+
+.othercontent {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 70px;
+  gap: 30px;
+  position: relative;
+  max-width: 100%;
+
+  margin-bottom: 100px;
+}
+
+.imge-cover img {
+ object-fit: cover;
+ /* background-size: 100% 100%; */
+}
+
+.img-below-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 38px;
+  line-height: 37px;
+}
+
+.small-descc {
+  color: #000;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.texxt {
+  /* width: 200px; */
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.shop-btnn {
+  padding: 4px 22px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 23px;
+}
